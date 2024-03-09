@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E6E6FA;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    gap: 20px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.add {
+    background-color: #DDA0DD;
+}
+
+.subtract {
+    background-color: #D8BFD8;
+}
